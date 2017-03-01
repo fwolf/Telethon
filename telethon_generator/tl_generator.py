@@ -2,7 +2,7 @@ import os
 import re
 import shutil
 
-from .parser import SourceBuilder, TLParser
+from parser import SourceBuilder, TLParser
 
 
 def get_output_path(normal_path):
